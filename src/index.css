@@ -1,0 +1,63 @@
+:root{
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-black-background-with-laptop-coffee-cup-calculator-top-view_169016-33508.jpg");
+  background-size: cover;
+  padding: 20px 200px 20px 200px;
+}
+
+#mainComponent{
+  background-color: rgb(85, 85, 85, 80%);
+  color: #e7e7e7;
+  text-align: center;
+  overflow: auto;
+  height: 700px;
+  font-size: 24px;
+  border-radius: 15px;
+}
+
+.btn{
+  background-color: #04AA6D;
+  color: #e7e7e7;
+  border-radius: 7px;
+  border: none;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 2px 10px 2px 10px;
+  font-size: 16px;
+}
+
+.btn:active{
+  box-shadow: 0px 3px #3c3c3c;
+  transform: translateY(3px);
+}
+
+.btn:hover{
+  background-color: #3e8e41;
+  background-color: #028a58;
+  transition: 0.1s;
+}
+
+#deleteBtn{
+  background-color: #f44336;
+}
+
+#deleteBtn:hover{
+  background-color: #cf291d;
+  transition: 0.4s;
+}
+
+#totalList{
+  text-align: center;
+}
+
+#ul{
+  display: inline-block;
+  text-align: left;
+}
+
+.input{
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+  height: 25px;
+  padding: 2px 10px 2px 10px;
+}
